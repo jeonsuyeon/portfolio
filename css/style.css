@@ -141,13 +141,14 @@
   }
 
   .tab-group button {
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin-left: 10px; margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     background: #041B32;
     border-style: none;
-    color: #fff;  }
+    color: #fff;  
+    }
   
   .tab-group button:hover {
     color: #fef200;
