@@ -82,4 +82,6 @@
     border-style: none;
     color: #fff;  
     }
-  
+    #main_footer {
+      height: 400px;
+    }
