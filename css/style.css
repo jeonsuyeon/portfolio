@@ -161,10 +161,29 @@
     height: 350px;
     color: #fff;
     padding-bottom: 50px;
+    text-align: center;
+  }
+
+  #main_footer h2 {
+    font-size: 48px;
+    padding-bottom: 30px;
+  }
+
+  #main_footer p {
+    line-height: 30px;
   }
   #main_footer .container a {
     text-decoration: none;
     color: white;
+  }
+
+  #yuhan .container {
+    margin: 0 auto;
+    background: #e7e7eb;
+  }
+
+  #yuhan img {
+    margin-top: 80px;
   }
   @media screen & (max-width: 768px) {
     
