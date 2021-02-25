@@ -51,9 +51,13 @@
   }
   
   #visual .title-group h2 span{
-    font-size: 40px;
+    font-size: 30px;
   }
   
+  #visual .title-group p {
+    margin-top: 10px;
+    font-size: 10px;
+  }
   #about {
     height: auto;
     padding: 100px 20px;
@@ -66,4 +70,13 @@
     width: 100%;
   }
 
+  .tab-group button {
+    padding: 10px ;
+    margin-left: 5px; margin-right: 5px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    background: #041B32;
+    border-style: none;
+    color: #fff;  
+    }
   
