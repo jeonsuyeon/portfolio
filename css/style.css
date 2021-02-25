@@ -177,14 +177,29 @@
     color: white;
   }
 
-  #yuhan .container {
+    /*서브페이지*/
+    #yuhan ,
+    #soul ,
+    #olive ,
+    #hosuluc {
+      background: #e7e7eb;
+    }
+
+  #yuhan .container ,
+  #soul .container ,
+  #olive .container ,
+  #hosuluc .container {
     margin: 0 auto;
-    background: #e7e7eb;
+  
   }
 
-  #yuhan img {
+  #yuhan img ,
+  #soul img ,
+  #olive img ,
+  #hosuluc {
     margin-top: 80px;
   }
+
   @media screen & (max-width: 768px) {
     
   }
