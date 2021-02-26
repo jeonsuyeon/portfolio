@@ -21,13 +21,13 @@ $(function(){
         .show(dutation);
     })
   
-    // graphic
-    $('#btn-graphic').on('click', function(){
-      $('#works .list li')
-        .hide(dutation)
-        .filter('.graphic')
-        .show(dutation);
-    })
+   // more
+        $('#btn-more').on('click', function(){
+          $('#works .list li')
+            .hide(dutation)
+            .filter('.more')
+            .show(dutation);
+        })
   
     // homepage
     $('#btn-homepage').on('click', function(){
@@ -38,11 +38,5 @@ $(function(){
     })
   
 
-       // more
-       $('#btn-more').on('click', function(){
-        $('#works .list li')
-          .hide(dutation)
-          .filter('.more')
-          .show(dutation);
-      })
+ 
   });
