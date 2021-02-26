@@ -37,4 +37,12 @@ $(function(){
         .show(dutation);
     })
   
+
+       // more
+       $('#btn-more').on('click', function(){
+        $('#works .list li')
+          .hide(dutation)
+          .filter('.more')
+          .show(dutation);
+      })
   });
